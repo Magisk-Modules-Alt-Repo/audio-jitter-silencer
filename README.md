@@ -12,8 +12,10 @@ This module behaves as follows:
 </ol>
 <br/>
 <br/>
-This module has been tested on LineageOS and ArrowOS ROM's, and phh GSI's (11 & 12, Qualcomm & MediaTek SoC, and Arm32 & Arm64 combinations). 
+
+* This module has been tested on LineageOS and ArrowOS ROM's, and phh GSI's (11 & 12, Qualcomm & MediaTek SoC, and Arm32 & Arm64 combinations). 
 <br/><br/>
+
 * Remark: This module runs only once at the first boot after installation and uninstallation. Please reboot immediately once after this first boot-up because the Device Idle Controller (the Doze battery saver) may fail to load hot "/data/system/deviceidle.xml" shortly after modified by this module.
 
 * Note: Entry class USB DAC's usually adopt an interface chip communicating with the adaptive mode or the synchronous one defined in the USB audio standard. As in these modes an Android host controller sends audio sampling rate clock signals to the DAC, jitter generated at the host side affects the audio quality of the DAC tremendously. Higher class DAC's communicate with the asynchronous mode (also defined in the standard) to a host controller, but they actually use a PLL to reduce jitter from the host not to stutter even in heavy jitter situations. As this result, they behave as the adaptive mode with a feedback loop to dynamically adjust the host side sampling clock signals while referring a DAC side clock in a real sense, so even with the asynchronous mode they are more or less affected by host side jitter. You can see the mode of your USB DAC by opening "/proc/asound/card1/stream0" on your phone while playing music. Please see a word in parentheses at "Endpoint:" lines; "SYNC", "ADAPTIVE" or "ASYNC" means that your DAC uses "synchronous", "adaptive" or "asynchronous" mode to communicate to your phone, respectively. Moreover, almost all audio peripherals, e.g., bluetooth earphones, internal DAC's, network audio devices have a PLL in themselves and are affected by host side jitter for the same reason.
