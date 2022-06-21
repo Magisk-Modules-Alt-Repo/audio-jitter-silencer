@@ -44,7 +44,13 @@
 <wl n="com.android.storagemanager" />
 <wl n="com.android.systemui" />
 <wl n="com.android.systemui.qstile.default" />
+<wl n="com.android.theme.speedui.level1" />
 <wl n="com.android.theme.speedui.level2" />
+<wl n="com.android.theme.speedui.level3" />
+<wl n="com.android.theme.speedui.level4" />
+<wl n="com.android.theme.speedui.level5" />
+<wl n="com.android.theme.speedui.level6" />
+<wl n="com.android.theme.speedui.level7" />
 <wl n="com.android.vending" />
 <wl n="com.android.wallpaper" />
 <wl n="com.android.webview" />
