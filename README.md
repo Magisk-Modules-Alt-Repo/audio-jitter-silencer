@@ -1,14 +1,14 @@
 ## Audio jitter silencer
-This module disables very large audio jitter generators (i.e., the adaptive battery draining management, the adaptive wireless connectivity management, and battery usage optimizations for audio related apps including system ones) for reducing audio jitter distortion effectively on all digital audio outputs (especially bluetooth earphones) so that you could enjoy very hi-fi audio music without very short reverb or foggy sound like digital audio distortion as much as possible in a simple manner. If you follow my request regarding to disabling battery optimizations written in README's of my other tools (["Audio misc. settings"](https://github.com/Magisk-Modules-Alt-Repo/audio-misc-settings), ["USB_SampleRate_Changer"](https://github.com/yzyhk904/USB_SampleRate_Changer), ["Hifi maximizer"](https://github.com/yzyhk904/hifi-maximizer-mod)), this module isn't needed at all and you could disable them by yourself manually. So this module will disable them automatically (but not completely) for your convenience.
+This module disables very large audio jitter generators (i.e., the adaptive battery draining management, the adaptive wireless connectivity management, and battery usage optimizations for audio related apps including system ones) for reducing audio jitter distortion effectively on all digital audio outputs (especially bluetooth earphones) so that you could enjoy very hi-fi audio music without very short reverb or foggy sound like digital audio distortion as much as possible in a simple manner. If you follow my request regarding to disabling battery optimizations written in README's of my other tools (["Audio misc. settings"](https://github.com/Magisk-Modules-Alt-Repo/audio-misc-settings), ["USB_SampleRate_Changer"](https://github.com/yzyhk904/USB_SampleRate_Changer), ["Hifi maximizer"](https://github.com/yzyhk904/hifi-maximizer-mod)), this module isn't needed at all and you could disable them manually by yourself. In short, on behalf of those who don't like to read the README's in detail this module will disable them automatically (but not completely).
 <br/>
 <br/>
 
 This module behaves as follows:
 <ol>
-    <li>disable the adaptive battery drain monitoring feature of the battery manager,</li>
-    <li>disable the adaptive connectivity feature of the data network manager,</li>
-    <li>disable the wifi suspend optimizations feature of the wifi network manager,</li>
-    <li>merge your original Doze white-list "/data/system/deviceidle.xml" (you have made via the app section (the battery usage or battery optimization part) of the Android settings interface) with an audio specific Doze white-list while backing up the original one (so that it can be restored when uninstalling this module).</li>
+    <li>disables the adaptive battery drain monitoring feature of the battery manager,</li>
+    <li>disables the adaptive connectivity feature of the data network manager,</li>
+    <li>disables the WI-FI suspend optimizations feature of the WI-FI network manager,</li>
+    <li>merges your original Doze white-list "/data/system/deviceidle.xml" (you have made via the app section (the battery usage or battery optimization part) of the Android settings interface) with an audio specific Doze white-list while backing up the original one (so that it can be restored when uninstalling this module).</li>
 </ol>
 <br/>
 <br/>
