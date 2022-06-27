@@ -25,20 +25,29 @@ function enableBatteryOptimizations()
 function restoreBackupFile()
 {
     target_whitelist="/data/system/deviceidle.xml"
+    
+    dumpsys deviceidle disable all 1>"/dev/null" 2>&1
+    sleep 1
 
     if [ -e "${target_whitelist}-jitter-silencer-bk" ]; then
-        dumpsys deviceidle disable all 1>"/dev/null" 2>&1
-        sleep 1
-
         mv -f "${target_whitelist}-jitter-silencer-bk" "${target_whitelist}"
-        touch "${target_whitelist}"
-        chmod 600 "$target_whitelist"
-        chcon u:object_r:system_data_file:s0 "$target_whitelist"
-        chown system:system "$target_whitelist"
         
-        dumpsys deviceidle enable all 1>"/dev/null" 2>&1
-        sleep 1
+    else
+        {
+            echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>"
+            echo "<config>"
+            echo "</config>"
+        } >"${target_whitelist}"
+        
     fi
+    
+    touch "${target_whitelist}"
+    chmod 600 "$target_whitelist"
+    chcon u:object_r:system_data_file:s0 "$target_whitelist"
+    chown system:system "$target_whitelist"
+    
+    dumpsys deviceidle enable all 1>"/dev/null" 2>&1
+    sleep 1
 }
 
 (((sleep 33; waitBootCompletion; restoreBackupFile; enableBatteryOptimizations) 0<&- &>"/dev/null" &) &)
