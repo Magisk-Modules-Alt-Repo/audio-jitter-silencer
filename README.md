@@ -19,7 +19,7 @@ This module behaves as follows:
 <br/>
 <br/>
 
-* This module has been tested on LineageOS and ArrowOS ROM's, and phh GSI's (11 & 12, Qualcomm & MediaTek SoC, and Arm32 & Arm64 combinations). 
+* This module has been tested on LineageOS and ArrowOS ROM's, and phh GSI's (11 ~ 13, Qualcomm & MediaTek SoC, and Arm32 & Arm64 combinations). 
 <br/><br/>
 
 * Remark: This module runs only once at the first boot after installation and uninstallation. Please reboot immediately once after this first boot-up because the Device Idle Controller (the Doze battery saver) may fail to load hot "/data/system/deviceidle.xml" shortly after modified by this module.
