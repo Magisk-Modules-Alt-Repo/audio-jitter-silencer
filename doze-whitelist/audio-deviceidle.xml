@@ -27,6 +27,7 @@
 <wl n="com.android.launcher3" />
 <wl n="com.android.messaging" />
 <wl n="com.android.mtp" />
+<wl n="com.android.musicfx" />
 <wl n="com.android.networkstack" />
 <wl n="com.android.networkstack.inprocess" />
 <wl n="com.android.nfc" />
@@ -66,13 +67,16 @@
 <wl n="com.extreamsd.usbaudioplayerpro" />
 <wl n="com.facebook.orca" />
 <wl n="com.google.android.GoogleCamera" />
+<wl n="com.google.android.adservices.api" />
 <wl n="com.google.android.apps.customization.pixel" />
 <wl n="com.google.android.apps.nbu.files" />
+<wl n="com.google.android.apps.nexuslauncher" />
 <wl n="com.google.android.apps.restore" />
 <wl n="com.google.android.apps.tachyon" />
 <wl n="com.google.android.apps.wallpaper" />
 <wl n="com.google.android.apps.wellbeing" />
 <wl n="com.google.android.apps.youtube.music" />
+<wl n="com.google.android.bluetooth" />
 <wl n="com.google.android.ext.services" />
 <wl n="com.google.android.ext.shared" />
 <wl n="com.google.android.gms" />
@@ -82,6 +86,7 @@
 <wl n="com.google.android.setupwizard" />
 <wl n="com.google.android.webview" />
 <wl n="com.google.ar.core" />
+<wl n="com.google.pixel.livewallpaper" />
 <wl n="com.jdcteam.buffcore" />
 <wl n="com.maxmpz.audioplayer" />
 <wl n="com.maxmpz.audioplayer.unlock" />

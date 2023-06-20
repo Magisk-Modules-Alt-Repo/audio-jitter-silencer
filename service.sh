@@ -25,6 +25,7 @@ function waitBootCompletion()
 function disableBatteryOptimizations()
 {
     settings put global adaptive_battery_management_enabled 0
+    settings put secure adaptive_charging_enabled 0
     settings put secure adaptive_connectivity_enabled 0
     settings put global wifi_suspend_optimizations_enabled 0
 }
