@@ -1,12 +1,5 @@
 #!/system/bin/sh
 
-MODDIR=${0%/*}
-RUN_ONCE="$MODDIR/run_once"
-
-if [ -e "$RUN_ONCE" ]; then
-    exit 0
-fi
-
 # sleep 33 secs needed for "settings" commands to become effective
 # and make the adaptive battery manager, adaptive connectivity and wifi suspend optimizations to be off
 
@@ -31,4 +24,3 @@ function disableBatteryOptimizations()
 }
 
 (((sleep 33; waitBootCompletion; disableBatteryOptimizations)  0<&- &>"/dev/null" &) &)
-touch "$RUN_ONCE"

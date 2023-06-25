@@ -46,4 +46,6 @@ chcon u:object_r:system_data_file:s0 "$target_whitelist"
 chown system:system "$target_whitelist"
 
 dumpsys deviceidle enable all 1>"/dev/null" 2>&1
+
+touch "$RUN_ONCE"
 sleep 1
