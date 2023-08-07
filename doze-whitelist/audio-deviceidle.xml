@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <config>
 <wl n="android" />
+<wl n="android.auto_generated_rro_product__" />
 <wl n="android.ext.services" />
 <wl n="android.ext.shared" />
 <wl n="app.airmusic.amrscservice" />
@@ -13,10 +14,12 @@
 <wl n="com.android.cameraextensions" />
 <wl n="com.android.cellbroadcastservice" />
 <wl n="com.android.chrome" />
+<wl n="com.android.externalstorage" />
 <wl n="com.android.companiondevicemanager" />
 <wl n="com.android.connectivity.resources" />
 <wl n="com.android.deskclock" />
 <wl n="com.android.dialer" />
+<wl n="com.android.imsserviceentitlement" />
 <wl n="com.android.inputdevices" />
 <wl n="com.android.internal.display.cutout.emulation.waterfall" />
 <wl n="com.android.internal.systemui.navbar.gestural" />
@@ -25,7 +28,9 @@
 <wl n="com.android.internal.systemui.navbar.gestural_wide_back" />
 <wl n="com.android.internal.systemui.navbar.threebutton" />
 <wl n="com.android.launcher3" />
+<wl n="com.android.launcher3.overlay" />
 <wl n="com.android.messaging" />
+<wl n="com.android.mms.service" />
 <wl n="com.android.mtp" />
 <wl n="com.android.musicfx" />
 <wl n="com.android.networkstack" />
@@ -39,6 +44,7 @@
 <wl n="com.android.providers.telephony" />
 <wl n="com.android.server.telecom" />
 <wl n="com.android.server.telecom.auto_generated_rro_vendor__" />
+<wl n="com.android.service.ims" />
 <wl n="com.android.settings" />
 <wl n="com.android.soundpicker" />
 <wl n="com.android.statementservice" />
@@ -52,6 +58,7 @@
 <wl n="com.android.theme.speedui.level5" />
 <wl n="com.android.theme.speedui.level6" />
 <wl n="com.android.theme.speedui.level7" />
+<wl n="com.android.safetycenter.resources" />
 <wl n="com.android.vending" />
 <wl n="com.android.wallpaper" />
 <wl n="com.android.webview" />
@@ -69,6 +76,7 @@
 <wl n="com.google.android.GoogleCamera" />
 <wl n="com.google.android.adservices.api" />
 <wl n="com.google.android.apps.customization.pixel" />
+<wl n="com.google.android.apps.googlecamera.fishfood" />
 <wl n="com.google.android.apps.nbu.files" />
 <wl n="com.google.android.apps.nexuslauncher" />
 <wl n="com.google.android.apps.restore" />
