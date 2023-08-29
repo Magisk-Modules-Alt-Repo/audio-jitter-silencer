@@ -1,5 +1,8 @@
 ## Change logs
 
+# v1.0.5
+* Tuned the doze whitelist for audio
+
 # v1.0.4
 * Changed to set battery optimizations to be disabled without fail
 
