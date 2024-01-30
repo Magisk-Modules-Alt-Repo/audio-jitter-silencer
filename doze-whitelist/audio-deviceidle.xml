@@ -21,6 +21,7 @@
 <wl n="com.android.dialer" />
 <wl n="com.android.imsserviceentitlement" />
 <wl n="com.android.inputdevices" />
+<wl n="com.android.internal.display.cutout.emulation.hole" />
 <wl n="com.android.internal.display.cutout.emulation.waterfall" />
 <wl n="com.android.internal.systemui.navbar.gestural" />
 <wl n="com.android.internal.systemui.navbar.gestural_extra_wide_back" />

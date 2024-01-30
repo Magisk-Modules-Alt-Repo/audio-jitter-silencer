@@ -1,5 +1,8 @@
 ## Change logs
 
+# v1.0.6
+* Added Punch hole cutout to the doze white-list
+
 # v1.0.5
 * Tuned the doze whitelist for audio
 
