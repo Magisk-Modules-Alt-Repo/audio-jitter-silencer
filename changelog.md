@@ -1,5 +1,8 @@
 ## Change logs
 
+# v1.0.7
+* Added other remaining all cutout app's to the doze white-list (I think this reduces jitter extremely even for superficially unused cutouts)
+
 # v1.0.6
 * Added Punch hole cutout to the doze white-list
 
