@@ -26,6 +26,7 @@
 <wl n="com.android.imsserviceentitlement" />
 <wl n="com.android.inputdevices" />
 <wl n="com.android.internal.display.cutout.emulation.avoidAppsInCutout" />
+<wl n="com.android.internal.display.cutout.emulation.corner" />
 <wl n="com.android.internal.display.cutout.emulation.double" />
 <wl n="com.android.internal.display.cutout.emulation.hole" />
 <wl n="com.android.internal.display.cutout.emulation.tall" />
