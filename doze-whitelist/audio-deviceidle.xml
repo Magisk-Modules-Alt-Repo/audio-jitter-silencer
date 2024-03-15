@@ -127,9 +127,12 @@
 <wl n="com.xiaomi.bluetooth.overlay" />
 <wl n="com.zoiper.android.app" />
 <wl n="deezer.android.app" />
+<wl n="io.github.huskydg.magisk" />
+<wl n="io.github.vvb2060.magisk" />
 <wl n="leedroiddevelopments.volumepanel" />
 <wl n="leedroiddevelopments.volumepanelads" />
 <wl n="lineageos.platform" />
+<wl n="me.weishu.kernelsu" />
 <wl n="mobi.mgeek.TunnyBrowser" />
 <wl n="net.sourceforge.opencamera" />
 <wl n="org.arrowos.customisation" />
