@@ -1,5 +1,8 @@
 ## Change logs
 
+#v1.0.8
+* Removed unnecessary files under $MODPATH
+
 # v1.0.7
 * Added other remaining all cutout app's to the doze white-list (I think this reduces jitter extremely even for superficially unused cutouts)
 * Added KernekSU, Magisk alpha and Kitsune Magisk to the doze white-list

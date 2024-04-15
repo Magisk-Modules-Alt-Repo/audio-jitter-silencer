@@ -19,7 +19,7 @@ This module behaves as follows:
 <br/>
 <br/>
 
-* This module has been tested on LineageOS and ArrowOS ROM's, and phh GSI's (11 ~ 13, Qualcomm & MediaTek SoC, and Arm32 & Arm64 combinations). 
+* This module has been tested on LineageOS and crDroid ROM's, and phh GSI's (11 ~ 14, Qualcomm & MediaTek SoC, and Arm32 & Arm64 combinations). 
 <br/><br/>
 
 * Remark: This module merges the above Doze white-list's only once at the first boot after installation, and also restores the backup to its original at the first boot after uninstallation. Please reboot immediately once after this first boot-up because the Device Idle Controller (the Doze battery saver) may fail to load hot "/data/system/deviceidle.xml" shortly after modified by this module. If you modify any battery optimization of  this kind after the installation, the Android system will filter out the white-list merged except existing apps on your device. So you will need manually maintain battery opyimization of new apps, or uninstall (reboot twice immediately) and reinstall this module (reboot once immediately after this reinstallation).
