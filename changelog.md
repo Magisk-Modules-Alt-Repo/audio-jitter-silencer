@@ -1,6 +1,6 @@
 ## Change logs
 
-#v1.0.8
+# v1.0.8
 * Removed unnecessary files under $MODPATH
 
 # v1.0.7
