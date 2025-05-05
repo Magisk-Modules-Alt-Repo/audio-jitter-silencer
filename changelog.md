@@ -1,5 +1,8 @@
 ## Change logs
 
+# v1.0.9
+* Added print spoolers into the whitelist
+
 # v1.0.8
 * Removed unnecessary files under $MODPATH
 

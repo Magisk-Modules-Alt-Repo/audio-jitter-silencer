@@ -10,8 +10,10 @@
 <wl n="com.advanced.settings.doze" />
 <wl n="com.amazon.mp3" />
 <wl n="com.android.adservices.api" />
+<wl n="com.android.ext.adservices.api" />
 <wl n="com.android.angle" />
-<wl n="com.android.bluetooth" />
+<wl n="com.android.angle" />
+<wl n="com.android.bips" />
 <wl n="com.android.bluetoothmidiservice" />
 <wl n="com.android.camera2" />
 <wl n="com.android.cameraextensions" />
@@ -52,6 +54,7 @@
 <wl n="com.android.plugin.volume.aosp" />
 <wl n="com.android.providers.media" />
 <wl n="com.android.providers.telephony" />
+<wl n="com.android.printspooler" />
 <wl n="com.android.safetycenter.resources" />
 <wl n="com.android.server.telecom" />
 <wl n="com.android.server.telecom.auto_generated_rro_vendor__" />
