@@ -121,8 +121,10 @@
 <wl n="com.onkyo.jp.onkyoremote" />
 <wl n="com.onkyo.pioneer.pioneerremote" />
 <wl n="com.qobuz.music" />
+<wl n="com.qti.phone" />
 <wl n="com.qualcomm.qti.gpudrivers.kona.api30" />
 <wl n="com.qualcomm.wfd.service" />
+<wl n="com.rifsxd.ksunext" />
 <wl n="com.spotify.music" />
 <wl n="com.stevesoltys.seedvault" />
 <wl n="com.topjohnwu.magisk" />

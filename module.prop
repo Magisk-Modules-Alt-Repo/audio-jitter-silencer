@@ -1,6 +1,6 @@
 id=audio-jitter-silencer
 name=Audio jitter silencer
-version=v1.0.9
-versionCode=1009
+version=v1.0.10
+versionCode=1010
 author=zyhk
 description=Disabling very large audio jitter generators (w.r.t. battery draining & optimizations, and wireless connectivity) for reducing audio jitter distortion on all digital audio outputs.
