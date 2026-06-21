@@ -1,8 +1,13 @@
 ## Change logs
 
+# v1.0.11
+* Added com.google.android.safetycore into the whitelist
+
 # v1.0.10
 * Added com.qti.phone into the whitelist
 * Added the "KernelSU-Next" app into the whitelist
+* Reverted "com.android.bluetooth"
+* Removed a duplicate entry in the white-list
 
 # v1.0.9
 * Added print spoolers into the whitelist

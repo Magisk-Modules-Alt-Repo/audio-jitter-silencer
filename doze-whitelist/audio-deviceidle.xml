@@ -107,6 +107,7 @@
 <wl n="com.google.android.gsf" />
 <wl n="com.google.android.inputmethod.latin" />
 <wl n="com.google.android.odad" />
+<wl n="com.google.android.safetycore" />
 <wl n="com.google.android.setupwizard" />
 <wl n="com.google.android.wallpaper.effects" />
 <wl n="com.google.android.webview" />
